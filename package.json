@@ -1,0 +1,25 @@
+{
+  "name": "bagofwords",
+  "version": "0.0.1",
+  "description": "bag-of-words calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techfort/bagofwords.git"
+  },
+  "keywords": [
+    "bag-of-words",
+    "model",
+    "machine",
+    "learning"
+  ],
+  "author": "joe minichino <joe.minichino@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techfort/bagofwords/issues"
+  },
+  "homepage": "https://github.com/techfort/bagofwords#readme"
+}
