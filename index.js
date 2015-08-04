@@ -2,6 +2,7 @@
 
   function tokenize(text) {
     return text
+      .replace(/'/g, '')
       .replace(/\W/g, ' ')
       .replace(/\s\s+/g, ' ')
       .split(' ');
