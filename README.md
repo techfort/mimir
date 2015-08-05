@@ -1,7 +1,8 @@
 # mimir: Bag-Of-Words and TF-IDF
 
 ![mimir](https://upload.wikimedia.org/wikipedia/commons/1/19/Oden_vid_Mims_lik.jpg)
-"""Mimir knows a lot about words"""
+
+*Mimir knows a lot about words*
 
 `mimir` is a JavaScript micro-module to produce a vocabulary of words given a set of texts, and a vector representation of a text against that vocabulary. It also performs basic TF-IDF analysis.
 

@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/techfort/bagofwords.git"
+    "url": "git@github.com:techfort/mimir.git"
   },
   "keywords": [
     "bag-of-words",
