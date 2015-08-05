@@ -42,7 +42,7 @@ var mimir = require('./index'),
   tfidf = mimir.tfidf;
 
 var textlist = [
-  "World War II, also known as the Second World War (after the recent Great War), was a global war that lasted from 1939 to 1945,",
+  "World War II, also known as the Second World War (after the recent Great War), was a global war that lasted from 1939 to 1945. World War II is the deadliest conflict in human history",
   "Germanic paganism refers to the theology and religious practices of the Germanic peoples from the Iron Age until their Christianization during the Medieval period.",
   "The Cleveland Bay is a breed of horse that originated in England during the 17th century, named for its consistent bay colouring and the Cleveland district of Yorkshire. It is a strong, well-muscled horse breed, the oldest established breed in England, and the only non-draught horse developed in Great Britain. The ancestors of the breed were developed during the Middle Ages for use as pack horses"
 ];
@@ -68,9 +68,9 @@ textlist.forEach(function (t, index) {
 prints:
 tf-idf for the word chocolate: -0.2231435513142097
 Most important words in document 1
-[ { word: 'war', score: 0.06237924740125606 },
-  { word: 'world', score: 0.03118962370062803 },
-  { word: '1939', score: 0.015594811850314015 } ]
+[ { word: 'war', score: 0.05792358687259491 },
+  { word: 'world', score: 0.034754152123556946 },
+  { word: 'ii', score: 0.023169434749037963 } ]
 Most important words in document 2
 [ { word: 'germanic', score: 0.032437208648653154 },
   { word: 'christianization', score: 0.016218604324326577 },
@@ -78,5 +78,6 @@ Most important words in document 2
 Most important words in document 3
 [ { word: 'breed', score: 0.023850888712244965 },
   { word: 'horse', score: 0.017888166534183726 },
-  { word: 'in', score: 0.017888166534183726 } ]
+  { word: 'developed', score: 0.011925444356122483 } ]
+
 */
