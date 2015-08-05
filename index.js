@@ -50,8 +50,7 @@
     return dict[input] / tokenize(text).length;
   }
 
-  function ncontaining(word, textlist) {
-
+  function wordInDocsCount(word, textlist) {
     var sum = 0;
     textlist.forEach(function (text) {
       sum += tokenize(text).indexOf(word) > -1 ? 1 : 0;
@@ -60,7 +59,7 @@
   }
 
   function idf(word, textlist) {
-    return Math.log(textlist.length / (1 + ncontaining(word, textlist)));
+    return Math.log(textlist.length / (1 + wordInDocsCount(word, textlist)));
   }
 
   function tfidf(word, text, textlist) {

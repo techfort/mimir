@@ -1,7 +1,7 @@
 {
-  "name": "bagofwords",
+  "name": "mimir",
   "version": "0.0.1",
-  "description": "bag-of-words calculator",
+  "description": "bag-of-words and td-idf",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,9 @@
     "bag-of-words",
     "model",
     "machine",
-    "learning"
+    "learning",
+    "td-idf",
+    "nlp"
   ],
   "author": "joe minichino <joe.minichino@gmail.com>",
   "license": "MIT",
