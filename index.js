@@ -3,7 +3,7 @@
   function tokenize(text) {
     return text
       .replace(/'/g, '')
-      .replace(/\W/g, ' ')
+      .replace(/[^A-Za-zА-Яа-яçÇğĞıİöÖşŞüÜ0-9_]/g, ' ')
       .replace(/\s\s+/g, ' ')
       .split(' ').map(function (s) {
         return s.toLowerCase();
